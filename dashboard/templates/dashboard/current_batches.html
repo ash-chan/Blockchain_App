@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="../../static/dashboard/dashboard.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+
+		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+			<div class="col">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link text-white" href="#">Discover</a>
+			      </li>
+			      <li class="nav-item active">
+			        <a class="nav-link text-white" href="../dashboard/templates/dashboard/dashboard.html">Dashboard</a>
+			      </li>
+			      <li class="nav-item active">
+			        <a class="nav-link text-white" href="#">About</a>
+			      </li>
+			      <li class="nav-item active">
+			        <a class="nav-link text-white" href="#">Contact</a>
+			      </li>
+			    </ul>
+			</div>
+			<div class="col text-center">
+				<a class="navbar-brand text-white" href="../dashboard/templates/dashboard/dashboard.html">CHANCEZ</a>
+			</div>
+			<div class="col"></div>
+		</nav>
+	</head>
+
+	<body>
+		<div class="row">
+			<div class="col-sm-3" id="side" style="height:100%">
+				<div class="container">
+					<h2 class="text-center hdr"> Dashboard </h2>
+					<ul class="list-group text-center">
+					  <li class="list-group-item text-left"><a href="../dashboard/templates/dashboard/dashboard.html">Overview</a></li>
+					  <li class="list-group-item text-left"><a href="current_batches.html">Current Batches</a></li>
+					  <li class="list-group-item text-left">Messages</li>
+					  <li class="list-group-item text-left">Wallet</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-9">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<a href="mixed.html">
+								<div class="card hdr" id="batch" style="margin-top: 100px">
+									<div class="card-header border-0 text-center">
+							            <img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="" height="150px" width="150px" style="margin-top: -90px">
+							        </div>
+							        <div class = "card-body hgt">
+										<h2 class="text-center"> '20 </h2>
+										<div class="row">
+											<div class="col-md-12 text-center">
+												<button type="button" class="btn btn-light side batch_button">Mixed</button>
+												<button type="button" class="btn btn-light batch_button ">29/30</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 text-center hdr">
+												<button type="button" class="btn btn-light side batch_button">6 Mentors</button>
+												<button type="button" class="btn btn-light batch_button">42 ZCO</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 text-center hdr">
+												<button type="button" class="btn btn-light batch_button"> ~ 12,345 USD</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-md-4">
+							<a href="mixed.html">
+								<div class="card hdr" id="batch" style="margin-top: 100px">
+									<div class="card-header border-0 text-center">
+							            <img src="https://brand.berkeley.edu/wp-content/uploads/2016/10/ucbseal_139_540.png" alt="" height="150px" width="150px" style="margin-top: -90px">
+							        </div>
+									<div class="card-body hgt">
+										<h2 class="text-center"> '21 </h2>
+										<div class="row">
+											<div class="col-md-12 text-center">
+												<button type="button" class="btn btn-light side batch_button">Mixed</button>
+												<button type="button" class="btn btn-light batch_button ">29/30</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 text-center hdr">
+												<button type="button" class="btn btn-light side batch_button">6 Mentors</button>
+												<button type="button" class="btn btn-light batch_button">42 ZCO</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 text-center hdr">
+												<button type="button" class="btn btn-light batch_button"> ~ 12,345 USD</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-md-4">
+							<a href="mixed.html">
+								<div class="card hdr" id="batch" style="margin-top: 100px">
+									<div class="card-header border-0 text-center">
+							            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Flat_plus_icon.svg/600px-Flat_plus_icon.svg.png" alt="" height="150px" width="150px" style="margin-top: -90px">
+							        </div>
+									<div class="card-body hgt">
+										<h3 class="text-center align-middle">Add New</h3>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

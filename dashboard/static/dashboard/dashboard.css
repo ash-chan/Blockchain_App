@@ -1,0 +1,83 @@
+#navbar {
+	height: 100px;
+	background-color: #004f99;
+}
+
+.smol {
+	margin-top: 6px
+}
+
+.med {
+	margin-top: 13px;
+}
+
+.hdr {
+	margin-top: 20px
+}
+
+.large {
+	margin-top: 30px
+}
+
+.mega {
+	margin-top: 40px
+}
+
+.side {
+	margin-right: 15px
+}
+
+.same-line {
+	display: inline
+}
+
+.box {
+  height: 40px;
+  width: 40px;
+  background-color: #D8D8D8;
+}
+
+.mentors {
+	background-color: #273c75;
+	color: white;
+}
+
+.mentees {
+	background-color: #7f8fa6;
+	color: white;
+}
+
+#side {
+	background-color: #f2f2f2;
+}
+
+#batch {
+	background-color: #004f99;
+	color: white;
+}
+
+.batch_button {
+	background-color: #6F9EC9;
+	border: none;
+	color: white;
+}
+
+.grey {
+	background-color: #f2f2f2;
+	border-color: white;
+}
+
+.green {
+	background-color: #00994d;
+	color: white;
+	border: none;
+}
+
+.modal-wide {
+  width: 1000px;
+  margin: auto;
+}
+
+.hgt {
+	min-height: 350px
+}
